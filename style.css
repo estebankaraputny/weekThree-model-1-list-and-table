@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Short Stack', cursive;
+}
+
+/* Comienza barra de navegacion */
+ /* .barraNavegacion { } */
+ 
+
+ .barraNavegacion-h1{
+    font-size:45px;
+    position: absolute;
+    display: flex;
+    left:80px;
+ }
+
+ .barraNavegacion-logo{
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    top:180px;
+    right:200px;
+ }
+
+ .barraNavegacion-portada{
+    text-align: center;
+ }
+
+ .barraNavegacion-portada-image{
+   width: 90vw;
+   height: 30vh;
+   object-fit: cover;
+   object-position: 0 80%;
+ }
+
+ .barraNavegacion-links{
+    display: flex;
+    padding:100px;
+ }
+
+ .barraNavegacion-links > ul {
+    display: flex;
+    list-style-type: none;
+ }
+ 
+ /* .barraNavegacion-links > ul > li{ }*/
+    
+ 
+
+ .barraNavegacion-links > ul > li > a{
+    text-decoration: none;
+ }
+
+ .section-one{
+    display:flex;
+    justify-content:center;
+ }
+ .section-one > h2 {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    width:90%;
+ }
+
+
+ .section{
+    display:flex;
+    flex-direction: row;
+    margin-top: 50px;
+ }
+
+ .section > .section-links {
+    flex-direction: column;
+    display: flex;
+    width: 250px;
+ }
+
+ .section > .section-links > ul {
+    list-style-type: none;
+    
+ }
+ .section > .section-links > ul > li {
+    height: 80px;
+    padding-left:100px;
+ }
+  .section > .section-links > ul > .section-links-home > a {
+    text-decoration: none;
+    color: black;
+  }
+
+ .section-info {
+    display:flex;
+    flex-direction:column;
+    height: 200px;
+    justify-content: space-between;
+ }
+
+.section-info > div {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+ .section-info > div > p{
+    text-indent: 20px;
+ }
+
+ /* COMIENZA PAGINA ABOUT */
+
+/* PORTADA Y LOGO TOMA EL CODIGO DE LA PAGINA ANTERIOR */
+
+.containerGeneral{
+   display: flex;
+   flex-direction: row;
+   margin-top: 50px;
+}
+
+
+ .section-links {
+   flex-direction: column;
+   display: flex;
+   width: 250px;
+}
+ .section-links > ul {
+   list-style-type: none;
+   
+}
+.section-links > ul > li {
+   height: 80px;
+   padding-left:100px;
+}
+.section-links > ul > .section-links-about > a {
+   text-decoration: none;
+   color: black;
+ }
+
+ /* Inicia seccion informacion */
+
+ .information{
+   display:flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding-left: 20px;
+   margin-right: 100px;
+ }
+
+ .information > p{
+   text-indent: 1em;
+}
+
+/* INICIA PAGINA CONTACTO */
+
+/* La portada toma el codigo de la pagina home */
+
+.container-contact{
+   display:flex;
+   padding-top: 3em;
+}
+
+
+.section-links-contact > a {
+   text-decoration: none;
+   color: black;
+ }
+
+ .section-mail{
+   display: flex;
+   flex-direction: column;
+ }
+
+ .section-mail > p {
+   padding: 10px 0;
+ }
+
+
+ /* END PAGES */
+
+
+ /* MOCKUP THREE */
+
+ .lista {
+   list-style-type: lower-alpha; 
+ }
