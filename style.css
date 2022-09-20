@@ -181,6 +181,62 @@
 
  /* MOCKUP THREE */
 
+ .container-rules-of-play{
+   width: 80%;
+   display: flex;
+   padding-top: 50px;
+ }
+ 
+ .subtitle{
+   font-size: 20px;
+   margin-bottom: 10px;
+   font-weight: 300;
+   text-align: center;
+ }
+
+ .container-rules-general{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 90%;
+   padding-left: 5%;
+ }
+
+.container-rules-title{
+   padding: 10px 0;
+   font-size: 18px;
+}
+
+.container-rules-sport{
+   text-indent: 25px;
+}
+
+
+/* .lista-dentro{
+  padding-left: 20px;
+} */
+
+.subtitle-bold{
+   font-weight: bold;
+}
+
  .lista {
    list-style-type: lower-alpha; 
+   padding-left: 20px;
  }
+
+ .container-rules-parrafo-indent{
+   text-indent: 30px;
+ }
+
+ .conter-list-type{
+   padding-left: 50px;
+   list-style-type: circle;
+   margin-bottom: 5%;
+ }
+
+ .container-rules-title-diferente{
+   font-size: 15px;
+   padding-top: 15px;
+ }
+
