@@ -181,62 +181,49 @@
 
  /* MOCKUP THREE */
 
- .container-rules-of-play{
-   width: 80%;
+ .container__rules{
    display: flex;
-   padding-top: 50px;
- }
- 
- .subtitle{
-   font-size: 20px;
-   margin-bottom: 10px;
-   font-weight: 300;
-   text-align: center;
+   width: 90%;
+   margin: auto;
+   padding-top:5%;
  }
 
- .container-rules-general{
+.container__list{
    display: flex;
    flex-direction: column;
-   justify-content: space-between;
-   width: 90%;
-   padding-left: 5%;
- }
-
-.container-rules-title{
-   padding: 10px 0;
-   font-size: 18px;
+   width: 70%;
 }
 
-.container-rules-sport{
-   text-indent: 25px;
+.subtitle__rules{
+   font-size: 20px;
+   font-weight: 300;
+   padding-bottom: 30px;
 }
 
+.subtitle__rules--aside{
+   padding: 15px 0;
+   font-size: 20px;
+}
 
-/* .lista-dentro{
-  padding-left: 20px;
-} */
-
-.subtitle-bold{
+.title__span{
    font-weight: bold;
 }
 
- .lista {
-   list-style-type: lower-alpha; 
-   padding-left: 20px;
- }
+.list__aling{
+   list-style-position: inside;
+}
 
- .container-rules-parrafo-indent{
-   text-indent: 30px;
- }
+.list__aling > li{
+   padding-bottom: 15px;
+}
 
- .conter-list-type{
-   padding-left: 50px;
-   list-style-type: circle;
-   margin-bottom: 5%;
- }
+.parrafo__rules{
+   text-indent: 40px;
+}
 
- .container-rules-title-diferente{
-   font-size: 15px;
-   padding-top: 15px;
- }
 
+.type__list{
+   list-style: circle;
+   list-style-position: inside;
+   padding-left:90px;
+}
