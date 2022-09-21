@@ -181,17 +181,11 @@
 
  /* MOCKUP THREE */
 
- .container__rules{
-   display: flex;
-   width: 90%;
-   margin: auto;
-   padding-top:5%;
- }
-
 .container__list{
    display: flex;
    flex-direction: column;
    width: 70%;
+   margin: auto;
 }
 
 .subtitle__rules{
@@ -226,4 +220,59 @@
    list-style: circle;
    list-style-position: inside;
    padding-left:90px;
+}
+
+/* INICIO TABLA */
+
+.container__table{
+   width: 60%;
+  margin: auto;
+}
+
+
+.subtitle__table{
+   font-size: 20px;
+   font-weight: 300;
+   padding: 15px 0;
+}
+
+.parrafo__table--line{
+   padding-bottom: 40px;
+   text-decoration: underline;
+}
+
+.table{
+   display: flex;
+   width: 70%;
+}
+
+.table__style{
+   font-size: 15px;
+   border-collapse:collapse ;
+   width: 100%;
+}
+
+thead{
+   width: 100%;
+}
+
+th{
+   text-align: left;
+   padding: 10px;
+}
+
+td{
+   padding: 10px;
+}
+
+.span__bold{
+   font-weight: bold;
+}
+
+.margin__division{
+   padding: 30px 0;
+}
+
+.parrafo__info--add{
+   margin-bottom: 20px;
 }
